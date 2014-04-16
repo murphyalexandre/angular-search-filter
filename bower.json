@@ -1,0 +1,19 @@
+{
+  "name": "angular-search-filter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/murphyalexandre/angular-search-filter",
+  "description": "A smart search filter for AngularJS.",
+  "main": "search.js",
+  "keywords": [
+    "angular",
+    "search",
+    "filter"
+  ],
+  "authors": [
+    "Alexandre Murphy-Gonthier <murphyalexandre@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.2.16"
+  }
+}
