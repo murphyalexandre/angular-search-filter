@@ -34,7 +34,7 @@ angular.module('search', [])
 
         return function (array, expression) {
             // Filter using object keys
-            var colonPos = expression.indexOf(':');
+            var colonPos = expression.toString().indexOf(':');
             if(colonPos > -1) {
                 // If found at least a colon, we want to filter by object key.
                 // What's before the : should be the key name and what's after should be the search string.
